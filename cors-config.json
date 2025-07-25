@@ -1,0 +1,23 @@
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE",
+            "HEAD"
+        ],
+        "AllowedOrigins": [
+            "https://www.isac-usa.org/"
+        ],
+        "ExposeHeaders": [
+            "ETag",
+            "x-amz-version-id",
+            "x-amz-request-id"
+        ],
+        "MaxAgeSeconds": 3000
+    }
+] 
